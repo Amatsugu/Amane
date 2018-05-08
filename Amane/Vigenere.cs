@@ -34,7 +34,7 @@ namespace Amane
 			{
 				message[i] = (char)((c[i] - k[i]) % M);
 			}
-
+			return new string(message);
 		}
     }
 }
